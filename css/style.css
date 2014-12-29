@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+    padding: 0px;
+}
+header {
+    height: 300px;
+    background-color: gray;
+}
+#logo {
+    background-image: url("Lambang_Kota_Kendari.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 175px;
+    margin: 0 auto;
+}
+section#wrapper{
+    width : 1100px;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+#kanvas {
+    height: 700px;
+    widows: 400px;
+    margin: 0 auto;
+    padding: 0;
+    border: groove 0px green;
+}
+aside {
+    float: left;
+    width: 195px;
+    height: 600px;
+}
+aside h1 {
+    text-align: center;
+    background-color: #e4e4e4;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+}
+section#kanvas {
+    float: right;
+    width: 900px;
+    height: 600px;
+}
+section#kanvas h1 {
+    text-align: center;
+    background-color: #e4e4e4;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+}
+nav ul li {
+    display: inline;
+    float: right;
+    padding-right: 10px;
+    margin: 2px;
+}
+nav ul li a {
+    color: blue;
+}
+ul li a:hover{
+    background-color: #555555;
+    font-weight: bold;
+}
+footer {
+    clear: both;
+    height: 80px;
+    background-color: gray;
+    text-align: center;
+}
